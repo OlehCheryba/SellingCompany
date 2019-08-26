@@ -1,0 +1,21 @@
+#header-div {
+	height: calc(100vh - 57px);
+	background-image: url("../img/1472042903_31.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 25%;
+}
+
+.card {
+	margin-top: 20px; 
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.navbar {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;	
+}
