@@ -1,9 +1,28 @@
+body {
+  scroll-behavior: smooth;
+}
+
 #header-div {
+	margin-top: 57px;
 	height: calc(100vh - 57px);
 	background-image: url("../img/1472042903_31.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 25%;
+}
+
+#header-div a {
+	font-size: 30px;
+	z-index: 0;
+}
+
+#header-div a:hover {
+  text-decoration: none;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
 }
 
 .card {
@@ -18,4 +37,9 @@
 	margin: 0;
 	padding-left: 0;
 	padding-right: 0;	
+}
+
+#product-list {
+	padding-top: 47px;
+	padding-bottom: 67px;
 }

@@ -10,8 +10,8 @@
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-	<header class="container-fluid pos-f-t">
-		<nav class="navbar row navbar-dark bg-dark">
+	<header class="container-fluid">
+		<nav class="navbar fixed-top row navbar-dark bg-dark">
 			<h3 class="col-8 col-md-auto text-white">SellingCompany</h4>
 			<button class="navbar-toggler mr-2 d-md-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -22,13 +22,16 @@
 				</div>
 			</div>
 		</nav>
-		<div id="header-div">	
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, veritatis provident non ea eos aliquid dolorum laborum quaerat consequuntur quidem ipsum aliquam possimus aspernatur nisi dolore, mollitia minima iusto iure.es, beatae id nostrum accusantium tempore quod praesentium saepe rerum aut consequatur excepturi ab placeat illo. Maxime aliquam eius, corrupti facilis assumenda qui atque quidem?
-			Dolorum ad consequatur sequi dolores incidunt iusto qui ipsam deleniti necessitatibus cum obcaecati consequuntur accusamus laboriosam quae alias quo a, ipsum culpa aut, reprehenderit porro sint totam. Cupiditate, rem velit.
+		<div id="header-div" class="container-fluid d-flex justify-content-center align-items-center">
+			<div class="text-danger text-center">
+				<h1>Вас вітає SellingCompany</h1>
+				<hr class="hr-dark my-0 mx-4">
+			</div>
+			<a href="#product-list" class="text-white position-absolute justify-content-center d-flex p-2 fixed-bottom">⯆</a>
 		</div>
 	</header>
 	<main>
-		<section class="container-fluid ">
+		<section id="product-list" class="container-fluid ">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
